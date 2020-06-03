@@ -1,0 +1,23 @@
+{
+  "name": "github-walkthrough",
+  "version": "1.0.0",
+  "description": "Walking through github features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylersullivan21/github-walkthrough.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylersullivan21/github-walkthrough/issues"
+  },
+  "homepage": "https://github.com/tylersullivan21/github-walkthrough#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "weather": "^1.0.4"
+  }
+}
