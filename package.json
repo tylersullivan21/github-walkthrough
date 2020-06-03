@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tylersullivan21/github-walkthrough#readme",
   "dependencies": {
+    "chalk": "^4.0.0",
     "weather": "^1.0.4"
   }
 }
