@@ -1,5 +1,9 @@
 const chalk = require('chalk');
+const log = console.log;
  
-const error = chalk.bold.red;
-const warning = chalk.keyword('orange');
+// Combine styled and normal strings
+log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+ 
+// Compose multiple styles using the chainable API
+log(chalk.blue.bgRed.bold('Hello world!'));
  
